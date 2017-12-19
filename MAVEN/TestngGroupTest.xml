@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="GroupingImplementation">
+  <test name="SampleGrouptest">
+  <groups>
+  <run>
+  <exclude name="this is group1"></exclude>
+  <include name="this is group2"></include>
+   
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="testng_scenarios.TestngGroupTest"/>
+    </classes>
+  </test> <!-- SampleGrouptest -->
+</suite> <!-- GroupingImplementation -->

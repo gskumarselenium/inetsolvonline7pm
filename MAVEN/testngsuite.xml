@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="testng_scenarios.ValidationCommandsTest"/>
+      <class name="testng_scenarios.InformationcomandsTest"/>
+      <class name="testng_scenarios.TestngGroupTest"/>
+      <class name="testng_scenarios.FbGroupingTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
